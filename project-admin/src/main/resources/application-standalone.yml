@@ -1,0 +1,28 @@
+spring:
+  config:
+    activate:
+      on-profile: standalone
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+redisson:
+  enabled: false
+
+elasticsearch:
+  enabled: false
+
+minio:
+  enabled: false
+
+flowable:
+  enabled: false
+
+xxljob:
+  enabled: false
